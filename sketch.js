@@ -183,7 +183,7 @@ for(var i=0;i<playerArrows.length;i++){
  );
 
  if(baseCollision.collided||archerCollision.collided||computerCollision.collided){
-   console.lof("Player arrow collided");
+   console.log("Player arrow collided");
  }
 }
 }
@@ -207,7 +207,7 @@ function handleComputerArrowCollision() {
    );
   
    if(baseCollision.collided||archerCollision.collided||computerCollision.collided){
-     console.lof("computer arrow collided");
+     console.log("computer arrow collided");
    }
   }
 }
